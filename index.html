@@ -7,7 +7,8 @@
     <title>E-commerce Website-1</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <!-- cdn -->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -32,7 +33,7 @@
             </ul>
         </div>
     </section>
-    <div class="space-y-10">
+    <div class="space-y-12">
         <section id="hero" class="flex flex-col justify-center px-12 items-start space-y-5">
             <h4 class="py-3 text-2xl font-bold">Trade-in-offer</h4>
             <h2 class="text-5xl font-bold">Super value deals</h2>
@@ -40,45 +41,267 @@
             <p class="text-[#222]">Save more with coupons & up to 70% off</p>
             <button class="btn width-20px">Shop Now</button>
         </section>
-        <section id="feature" class="mx-auto container  md:grid md:grid-cols-3 lg:grid lg:grid-cols-5 gap-2">
-            <div class="card bg-base-100  hover:shadow-xl">
-                <figure class="px-10 pt-10 w-100">
+        <section id="feature" class="mx-5 grid sm:grid-cols-2  md:grid md:grid-cols-3 lg:flex lg:gap-3">
+            <div class="card w-full  hover:shadow-xl">
+                <figure class="px-10 pt-10 w-full">
                     <img src="img/features/f1.png" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title">Free Shipping</h2>
+                    <h2 class="card-title ">Free Shipping</h2>
                 </div>
             </div>
-            <div class="card bg-base-100  hover:shadow-xl">
+            <div class="card w-full  hover:shadow-xl">
                 <figure class="px-10 pt-10">
-                    <img class="width-" src="img/features/f1.png" />
+                    <img class="width-" src="img/features/f2.png" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title">Free Shipping</h2>
+                    <h2 class="card-title">Outline Order</h2>
                 </div>
             </div>
-            <div class="card bg-base-100  hover:shadow-xl">
+            <div class="card w-full  hover:shadow-xl">
                 <figure class="px-10 pt-10">
-                    <img class="width-" src="img/features/f1.png" />
+                    <img class="width-" src="img/features/f3.png" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title">Free Shipping</h2>
+                    <h2 class="card-title">Save Money</h2>
                 </div>
             </div>
-            <div class="card bg-base-100  hover:shadow-xl">
+            <div class="card w-full  hover:shadow-xl">
                 <figure class="px-10 pt-10">
-                    <img class="width-" src="img/features/f1.png" />
+                    <img class="width-" src="img/features/f4.png" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title">Free Shipping</h2>
+                    <h2 class="card-title">Proffestion</h2>
                 </div>
             </div>
-            <div class="card bg-base-100  hover:shadow-xl">
+            <div class="card w-full  hover:shadow-xl">
                 <figure class="px-10 pt-10">
-                    <img class="width-" src="img/features/f1.png" />
+                    <img class="width-" src="img/features/f5.png" />
                 </figure>
                 <div class="card-body items-center text-center">
-                    <h2 class="card-title">Free Shipping</h2>
+                    <h2 class="card-title">Happy Sell</h2>
+                </div>
+            </div>
+            <div class="card w-full  hover:shadow-xl">
+                <figure class="px-10 pt-10">
+                    <img class="width-" src="img/features/f6.png" />
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title">24/7 Support</h2>
+                </div>
+            </div>
+        </section>
+        <section id="products" >
+            <h1 class="text-6xl text-center font-bold">Featured Products</h1>
+            <p class="text-xl text-center mt-4">Summer Collection New Morden Desing</p>
+            <div class=" mx-5 mt-10  gap-3 md:grid md:grid-cols-2 lg:grid lg:grid-cols-4">
+                <div class="pro ">
+                    <img src="./img/products/f1.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f2.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f3.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f4.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f5.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f6.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f7.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
+                </div>
+                 <div class="pro ">
+                    <img src="./img/products/f8.jpg" alt="">
+                    <div class="text-start leading-loose">
+                        <span id="extra">
+                            <p>adidas</p>
+                        </span>
+                        <h1 class="text-xl font-bold">Cartoon Astronoul T-Shirts</h1>
+                        <div>
+                            <div class="flex color mt-2 text-orange-400">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+
+                            </div>
+
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <h1 class="text-[#088178] mt-2 text-2xl">$78</h1>
+                            <a href="#"><i
+                                    class="fa fa-shopping-cart mr-4 bg-[#e8f6ea] p-3 rounded-full text-[#088178] "></i></a>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </section>
